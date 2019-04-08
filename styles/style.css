@@ -1,49 +1,116 @@
   body {
-    background-color: #808080;
+    background-color: #44318D;
+    color: white;
   }
 
   header {
     border: 4px solid black;
+    background-color: #2A1B3D;
+    margin-bottom: 15px
   }
 
   nav {
-    background-color: #808080
+    background-color: #2A1B3D;
   }
 
   h1 {
-    background-color: #800080;
-    color:  black;
+    background-color: #D83F87;
+    color:  white;
+    font-family: "Courier New", Courier, monospace;
     padding: 10px 10px 10px 10px;
     text-align: center;
+    border: 4px solid black;
+  }
+
+  h2 {
+      background-color: #D83F87;
+      color: white;
+      font-family: "Courier New", Courier, monospace;
+      margin-left: 10px;
+      border: 4px solid black;
+      margin-right: 10px;
+      padding-left: 10px;
+      text-align:center;
   }
 
   nav a:link, a:visited {
-  background-color: #800080;
-  color:  black;
+  background-color: #8267a5;
+  color: white;
+  border: 2px solid white;
+  margin-bottom: 10px;
   padding: 14px 25px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
   }
 
+  .GitHub a:link, a:visited {
+    background-color: #8267a5;
+    color: white;
+    border: 2px solid white;
+    margin-bottom: 10px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+  .GitHub li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  nav li a:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  nav .active {
+    background-color: #555;
+    color: white;
+  }
+
   .About {
     border: 4px solid black;
+    background-color: #2A1B3D;
+    margin-bottom: 10px;
   }
 
   .Skills {
-    border: 4px solid black
+    border: 4px solid black;
+    background-color: #2A1B3D;
+    margin-bottom: 10px;
   }
 
-  h2 {
-    padding-left: 10px;
+  .Experience {
+    border: 4px solid black;
+    background-color: #2A1B3D;
   }
+
+  .GitHub {
+    border: 4px solid black;
+    background-color: #2A1B3D;
+    margin-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 10px;
+  }
+
 
   img {
     padding-left: 15px;
   }
 
+  iframe {
+    border: 4px solid black;
+  }
+
   footer {
     border: 4px solid black;
+    background-color: #2A1B3D;
     padding-left: 15px;
     padding-right: 10px;
+  }
+
+  footer a:link, a:visited {
+    color: white;
   }
