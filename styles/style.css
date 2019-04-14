@@ -33,7 +33,7 @@ img.Clouds {
 img.Airplanes {
   border-radius: 50%;
   border: 2px solid white;
-  position: absolue;
+  position: absolute;
   left: 600px;
   bottom: 540px;
 }
