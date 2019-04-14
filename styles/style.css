@@ -1,39 +1,95 @@
-  body {
-    background-color: #44318D;
+body {
+  background-image: url('../images/background.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+header {
+  border: 4px solid black;
+  background-color: rgba(42, 27, 61, .80);
+  margin-bottom: 15px
+}
+
+footer {
+  border: 4px solid black;
+  background-color: rgba(42, 27, 61, .80);
+  font-family: 'Nunito', sans-serif;
+  padding-left: 15px;
+  padding-right: 10px;
+  }
+
+/* IMAGE STYLING */
+
+img.Clouds {
+  border-radius: 50%; border: 2px solid white;
+  position: fixed;
+  left: 1200px;
+  bottom: 540px;
+}
+
+img.Airplanes {
+  border-radius: 50%; border: 2px solid white;
+  position: fixed;
+  left: 600px;
+  bottom: 540px;
+}
+
+img.seth_rice {
+  border-radius: 50%; border: 2px solid white;
+  padding-left: 15px;
+}
+
+/* NAVIGATION STYLING */
+
+nav a:link {
+  background-color: rgba(42, 27, 61, .80);
+  font-family: 'Nunito', sans-serif;
+}
+
+nav a:link, a:visited {
+  background-color: #8267a5;
+  border: 2px solid black;
+  color: white;
+  margin-bottom: 10px;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+nav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+nav .active {
+  background-color: #555;
+  color: white;
+}
+
+h1 {
+  background-color: rgba(216, 63, 135, .80);
+  color:  white;
+  font-family: 'Roboto Condensed', sans-serif;
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  border: 4px solid black;
+}
+
+h2 {
+    background-color: rgba(216, 63, 135, .80);
     color: white;
-  }
-
-  header {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-left: 10px;
     border: 4px solid black;
-    background-color: #2A1B3D;
-    margin-bottom: 15px
-  }
+    margin-right: 10px;
+    padding-left: 10px;
+    text-align:center;
+}
 
-  nav {
-    background-color: #2A1B3D;
-  }
-
-  h1 {
-    background-color: #D83F87;
-    color:  white;
-    font-family: "Courier New", Courier, monospace;
-    padding: 10px 10px 10px 10px;
-    text-align: center;
-    border: 4px solid black;
-  }
-
-  h2 {
-      background-color: #D83F87;
-      color: white;
-      font-family: "Courier New", Courier, monospace;
-      margin-left: 10px;
-      border: 4px solid black;
-      margin-right: 10px;
-      padding-left: 10px;
-      text-align:center;
-  }
-
-  nav a:link, a:visited {
+.GitHub a:link, a:visited {
   background-color: #8267a5;
   color: white;
   border: 2px solid white;
@@ -42,75 +98,43 @@
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  }
+}
 
-  .GitHub a:link, a:visited {
-    background-color: #8267a5;
-    color: white;
-    border: 2px solid white;
-    margin-bottom: 10px;
-    padding: 14px 25px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-  }
-
-  .GitHub li a:hover {
-    background-color: #555;
-    color: white;
-  }
-
-  nav li a:hover {
-    background-color: #555;
-    color: white;
-  }
-
-  nav .active {
-    background-color: #555;
-    color: white;
-  }
-
-  .About {
-    border: 4px solid black;
-    background-color: #2A1B3D;
-    margin-bottom: 10px;
-  }
-
-  .Skills {
-    border: 4px solid black;
-    background-color: #2A1B3D;
-    margin-bottom: 10px;
-  }
-
-  .Experience {
-    border: 4px solid black;
-    background-color: #2A1B3D;
-  }
-
-  .GitHub {
-    border: 4px solid black;
-    background-color: #2A1B3D;
-    margin-bottom: 10px;
-    padding-left: 15px;
-    padding-right: 10px;
-  }
+.GitHub li a:hover {
+  background-color: #555;
+  color: white;
+}
 
 
-  img {
-    padding-left: 15px;
-  }
+.About {
+  border: 4px solid black;
+  background-color: #2A1B3D;
+  margin-bottom: 10px;
+}
 
-  iframe {
-    border: 4px solid black;
-  }
+.Skills {
+  border: 4px solid black;
+  background-color: #2A1B3D;
+  margin-bottom: 10px;
+}
 
-  footer {
-    border: 4px solid black;
-    background-color: #2A1B3D;
-    padding-left: 15px;
-    padding-right: 10px;
-  }
+.Experience {
+  border: 4px solid black;
+  background-color: #2A1B3D;
+}
 
-  footer a:link, a:visited {
-    color: white;
-  }
+.GitHub {
+  border: 4px solid black;
+  background-color: #2A1B3D;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 10px;
+}
+
+iframe {
+  border: 4px solid black;
+}
+
+footer a:link, a:visited {
+  color: white;
+}
