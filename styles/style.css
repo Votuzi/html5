@@ -1,8 +1,8 @@
 body {
   background-image: url("https://votuzi.github.io/html5/images/background.jpg");
   background-repeat: no-repeat;
-  background-size: auto;
-  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   color: white;
 }
 
@@ -23,21 +23,24 @@ footer {
 /* IMAGE STYLING */
 
 img.Clouds {
-  border-radius: 50%; border: 2px solid white;
+  border-radius: 50%;
+  border: 2px solid white;
   position: fixed;
   left: 1200px;
   bottom: 540px;
 }
 
 img.Airplanes {
-  border-radius: 50%; border: 2px solid white;
+  border-radius: 50%;
+  border: 2px solid white;
   position: fixed;
   left: 600px;
   bottom: 540px;
 }
 
 img.seth_rice {
-  border-radius: 50%; border: 2px solid white;
+  border-radius: 50%;
+  border: 2px solid white;
   padding-left: 15px;
 }
 
