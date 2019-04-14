@@ -25,7 +25,7 @@ footer {
 img.Clouds {
   border-radius: 50%;
   border: 2px solid white;
-  position: relative;
+  position: absolute;
   left: 1200px;
   bottom: 540px;
 }
@@ -33,7 +33,7 @@ img.Clouds {
 img.Airplanes {
   border-radius: 50%;
   border: 2px solid white;
-  position: relative;
+  position: absolute;
   left: 600px;
   bottom: 540px;
 }
@@ -41,7 +41,7 @@ img.Airplanes {
 img.seth_rice {
   border-radius: 50%;
   border: 2px solid white;
-  position: relative;
+  position: absolute;
   padding-left: 15px;
 }
 
