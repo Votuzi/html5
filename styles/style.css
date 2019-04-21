@@ -41,8 +41,6 @@ img.Airplanes {
 img.seth_rice {
   border-radius: 50%;
   border: 2px solid white;
-  position: relative;
-  padding-left: 15px;
 }
 
 /* NAVIGATION STYLING */
@@ -142,4 +140,14 @@ iframe {
 
 footer a:link, a:visited {
   color: white;
+}
+
+footer p {
+  background-color: #8267a5;
+  border: 2px solid white;
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100em;
+  text-align: center;
 }
