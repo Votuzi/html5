@@ -9,7 +9,8 @@ body {
 header {
   border: 4px solid black;
   background-color: rgba(42, 27, 61, .80);
-  margin-bottom: 15px
+  margin-bottom: 15px;
+  padding-bottom: 100px;
 }
 
 footer {
@@ -25,17 +26,16 @@ footer {
 img.Clouds {
   border-radius: 50%;
   border: 2px solid white;
-  position: absolute;
-  left: 1200px;
-  bottom: 540px;
+  position: relative;
+  bottom: 300px;
 }
 
 img.Airplanes {
   border-radius: 50%;
   border: 2px solid white;
-  position: absolute;
-  left: 600px;
-  bottom: 540px;
+  position: relative;
+  bottom: 300px;
+  left: 1300px;
 }
 
 img.seth_rice {
@@ -62,11 +62,6 @@ nav a:link, a:visited {
 }
 
 nav li a:hover {
-  background-color: #555;
-  color: white;
-}
-
-nav .active {
   background-color: #555;
   color: white;
 }
