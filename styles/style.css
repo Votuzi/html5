@@ -7,8 +7,7 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
   border: 4px solid black;
   background-color: rgba(42, 27, 61, .80);
   margin-bottom: 15px;
@@ -35,9 +34,17 @@ img.seth_rice {
 }
 
 .images {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-column-start: 7;
+  grid-column-end: 9;
   padding: 60px 100px;
+}
+
+.images2 {
+  display: grid;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  padding: 20px 50px;
 }
 
 /* NAVIGATION STYLING */
@@ -48,6 +55,9 @@ nav a:link {
 }
 
 nav a:link, a:visited {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  list-style-type: none;
   background-color: #8267a5;
   border: 2px solid black;
   color: white;
